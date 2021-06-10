@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    color: silver;
+    background-color: #202020;
+}
+
+hr {
+    color: silver;
+}
+
+header {
+    background-color: #3f3f3f;
+}
+
+header h1 {
+    margin: 0;
+    padding: 1em;
+    background-color: #5b5b5b;
+    font-size: 36px;
+}
+
+header hr {
+    margin: 0;
+}
+
+nav {
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+nav a:link {
+    display: inline-block;
+    margin: 0 5%;
+    padding: 0.5em;
+    text-decoration: none;
+    background-color: #2d2d2d;
+    border: 2px solid silver;
+    border-radius: 1em;
+    color: silver;
+}
+
+nav a:visited {
+    border: 2px solid silver;
+    color: silver;
+}
+
+nav a:hover {
+    background-color: #4c4c4c;
+    border: 2px solid white;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    width: 90%;
+    margin: 2em auto;
+    padding: 1em 0;
+    border: 2px solid white;
+    border-radius: 1em;
+    background-color: #3f3f3f;
+}
+
+form {
+    width: 35%;
+    margin: 2em auto;
+    padding: 1em;
+    border: 2px solid white;
+    border-radius: 1em;
+    background-color: #3f3f3f;
+    text-align: center;
+}
+
+form fieldset {
+    border: none;
+}
+
+form legend {
+    font-size: 24px;
+}
+
+form input[type="submit"] {
+    width: 25%;
+    margin: 0 auto;
+    padding: 0.5em;
+    text-decoration: none;
+    background-color: #2d2d2d;
+    border: 2px solid silver;
+    border-radius: 1em;
+    color: silver;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4c4c4c;
+    border: 2px solid white;
+    color: white;
+}
+
+section.profile {
+    text-align: center;
+}
+section.profile h2 {
+    font-size: 30px;
+}
+section.profile a:link {
+    display: inline-block;
+    width: 25%;
+    margin: 0 auto;
+    padding: 0.5em;
+    text-decoration: none;
+    background-color: #2d2d2d;
+    border: 2px solid silver;
+    border-radius: 1em;
+    color: silver;
+}
+section.profile a:visited {
+    border: 2px solid silver;
+    color: silver;
+}
+section.profile a:hover {
+    background-color: #4c4c4c;
+    border: 2px solid white;
+    color: white;
+}
+table.profile {
+    margin: 1em auto;
+}
+table.profile td {
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+.infoSection {
+    text-align: center;
+}
+
+.infoSection img {
+    max-width: 35%;
+    height: auto;
+    border: 2px solid silver;
+}
+
+.infoSection table {
+    margin: 1em auto;
+    padding: 1em;
+    background-color: #4c4c4c;
+    border-radius: 1em;
+    border-collapse: collapse;
+}
+.infoSection tr:nth-child(even) {
+    background-color: #666666;
+}
+
+.infoSection table th, .infoSection table td {
+    padding: 0.75em;
+}
+
+.infoSection td a:link {
+    display: block;
+    width: 50%;
+    margin: 0 5%;
+    padding: 0.5em;
+    text-decoration: none;
+    background-color: #2d2d2d;
+    border: 2px solid silver;
+    border-radius: 1em;
+    color: silver;
+}
+.infoSection td a:visited {
+    border: 2px solid silver;
+    color: silver;
+}
+.infoSection td a:hover {
+    background-color: #4c4c4c;
+    border: 2px solid white;
+    color: white;
+}
+
+.infoSection a:link {
+    display: inline-block;
+    width: 25%;
+    margin: 0 5%;
+    padding: 0.5em;
+    text-decoration: none;
+    background-color: #2d2d2d;
+    border: 2px solid silver;
+    border-radius: 1em;
+    color: silver;
+}
+.infoSection a:visited {
+    border: 2px solid silver;
+    color: silver;
+}
+.infoSection a:hover {
+    background-color: #4c4c4c;
+    border: 2px solid white;
+    color: white;
+}
+
+.error {
+    width: 15%;
+    margin: 1em auto;
+    padding: 0.5em;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    background-color: #3F3F3F;
+    border: 2px solid silver;
+    border-radius: 1em;
+}
+
+.required {
+    color: darkred;
+    font-weight: bold;
+}
+
+.notification {
+    color: yellow;
+    font-weight: bold;
+}
+
+.logExercise {
+    padding: 1.5em;
+    text-align: left;
+}
+.logExercise input, select {
+    display: block;
+}

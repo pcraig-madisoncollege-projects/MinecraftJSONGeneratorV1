@@ -1,0 +1,10 @@
+YouTube Video Link:
+
+
+References:
+* String to boolean help for javascript on StackOverflow (https://stackoverflow.com/questions/4344542/convert-string-to-boolean-in-javascript)
+* Object Prototypes for JavaScript on W3 Schools (https://www.w3schools.com/js/js_object_prototypes.asp)
+* Array methods for JavaScript on W3 Schools (https://www.w3schools.com/js/js_array_methods.asp)
+* Escaping double quotes in JavaScript from StackOverflow (https://stackoverflow.com/questions/15877778/function-to-escape-quotes-in-javascript)
+* The replace function for JavaScript from W3 Schools (https://www.w3schools.com/jsref/jsref_replace.asp)
+* Cerulean Bootstrap CSS (https://bootswatch.com/cerulean/)

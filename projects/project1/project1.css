@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(48,48,48);
+}
+
+h1, h2, p, label {
+    color: white;
+}
+
+input {
+    display: block;
+}
