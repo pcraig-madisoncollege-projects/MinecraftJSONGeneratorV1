@@ -1,7 +1,8 @@
 # Intro PHP Programming with MySQL
 
 This repository holds the source code written while I was taking an introductory
-PHP course with MySQL.
+PHP course with MySQL. The web server was hosted using Internet Information
+Services (IIS).
 
 There are three main types of content here: demos, labs, and projects. The demos
 and labs were completed as in-class material, where the projects were the
